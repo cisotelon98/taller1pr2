@@ -1,0 +1,10 @@
+public class ejercicio4 {
+    public static void main(String[] args) {
+        int num = 42;
+        String numStr = Integer.toString(num);
+        String mensaje = "El número es: ";
+        
+        String result = mensaje + numStr;
+        System.out.println(result); 
+    }
+}
