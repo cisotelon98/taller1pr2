@@ -1,0 +1,10 @@
+public class ejercicio7 {
+    public static void main(String[] args) {
+        String texto = "Hola\nMundo"; // \n es un salto de línea
+        char comillaSimple = '\'';
+        char comillaDoble = '\"';
+
+        System.out.println(texto);
+        System.out.println("Esto es una comilla simple: " + comillaSimple);
+    }
+}
