@@ -1,0 +1,12 @@
+public class ejercicio3 {
+    public static void main(String[] args) {
+        double num1 = 5.75;
+        double num2 = 3.25;
+        String result = "La suma de los numeros es: ";
+        
+        double sum = num1 + num2;
+        String resul = result + sum;
+        System.out.println(resul); 
+    }
+}
+
