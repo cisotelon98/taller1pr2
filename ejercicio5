@@ -1,0 +1,12 @@
+public class ejercicio5 {
+    public static void main(String[] args) {
+        String str1 = "123";
+        String str2 = "456";
+        
+        boolean isEqual = str1.equals(str2);
+        int number = isEqual ? 1 : 0;
+        String result = "Las cadenas son iguales: " + isEqual + " (Código: " + number + ")";
+        
+        System.out.println(result);
+    }
+}
