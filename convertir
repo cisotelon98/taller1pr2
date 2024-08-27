@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class convetir {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la cantidad de resultados que desea: ");
+        int cantidadResultados = scanner.nextInt();
+
+        for (int i = 1; i <= cantidadResultados; i++) {
+            System.out.print("Ingrese la temperatura en grados Fahrenheit #" + i + ": ");
+            double fahrenheit = scanner.nextDouble();
+
+            int celsius = (int) Math.round((fahrenheit - 32) * 5 / 9);
+
+            System.out.println( " son "+ celsius + " celsius ");
+        }
+    }
+}
