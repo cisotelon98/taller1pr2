@@ -1,0 +1,11 @@
+public class ejemplo2 {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        String result = "La suma es: ";
+        
+        int sum = num1 + num2;
+        String resul = result + sum;
+        System.out.println(resul); 
+    }
+}
