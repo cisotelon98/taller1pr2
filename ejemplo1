@@ -1,0 +1,11 @@
+public class ejemplo1 {
+    public static void main(String[] args) {
+        String pl1 = "Hola, ";
+        String pl2 = "mundo!";
+        char ch = ' ';
+        
+        String resul = pl1 + ch + pl2;
+        System.out.println(resul); 
+    }
+}
+
